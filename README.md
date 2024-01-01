@@ -69,7 +69,7 @@ This website is designed to showcase the various services offered by Haesung Hos
 
 ## HOME PAGE
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/0d0acb0f-402f-4290-89ac-3f495fe7d9b3" alt="Homepage" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/e37c4f59-7e2e-419c-9bf0-f76f088bf399" alt="Homepage" width="100%" height="50%">
 </div>
 
 ## DOCTORS PAGE
