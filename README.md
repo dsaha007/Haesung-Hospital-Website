@@ -58,39 +58,39 @@ This website is designed to showcase the various services offered by Haesung Hos
 
 # Screenshots
 
+## HOME PAGE
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/0d0acb0f-402f-4290-89ac-3f495fe7d9b3" alt="Homepage" width="" height="300">
-  <p>HOME PAGE</p>
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/0d0acb0f-402f-4290-89ac-3f495fe7d9b3" alt="Homepage" width="100%" height="50%">
 </div>
 
+## DOCTORS PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/f1c6a034-e2c1-4ec1-8e88-6740baa4d7c3" alt="Doctors Page" width="100%" height="50%">
-  <p>DOCTORS PAGE</p>
 </div>
 
+## APPOINTMENTS PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/b277e15f-7528-4d05-bb6e-a7d365def106" alt="Appointments Page" width="100%" height="50%">
-  <p>APPOINTMENTS PAGE</p>
 </div>
 
+## NEWS-LETTER PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/c736dcee-68b0-442e-a7f9-a0c930304570" alt="Newsletter Page" width="100%" height="50%">
-  <p>NEWS-LETTER PAGE</p>
 </div>
 
+## GALLERY PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/b0d4e193-f0be-4c77-a509-d8f6e729350b" alt="Gallery Page" widtth="100%" height="50%">
-  <p>GALLERY PAGE</p>
 </div>
 
+## CONTACT US PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/2139b73e-9b50-46cf-9f7d-87ffe3b515d6" alt="Contact Us Page" width="100%" height="50%">
-  <p>CONTACT US PAGE</p>
 </div>
 
+## SHOP PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/43a0817c-6960-45b6-a403-e0429d84c4fa" alt="Shop Page" width="100%" height="50%">
-  <p>SHOP PAGE</p>
 </div>
 
 
