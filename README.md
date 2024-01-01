@@ -7,8 +7,7 @@ This repository contains the code for the Haesung Hospital website. The website 
 
 This project is based on the fictional hospital, Haesung Hospital, depicted in the popular K-drama "Descendants of the Sun." The characters, events, and services showcased on this website are inspired by the drama.
 
-![Landing Page](images/landing_page.png)
-
+[Visit Descendants of the Sun(2016) IMDb Page](https://www.imdb.com/title/tt4925000/)
 
 I created this website as a homage to the drama and its characters, out of fondness for the narrative and the portrayal of Haesung Hospital. It's a small endeavor to bring the fictional hospital to life in a tangible way, as a tribute to the series and its impact on viewers.
 
