@@ -4,7 +4,7 @@
 
 This repository contains the code for the Haesung Hospital website. The website provides information about the hospital, its services, contact details, a shop for medicines, recent news, and more.
 
-## Why I Made This
+# Why I Made This
 
 This project is based on the fictional hospital, Haesung Hospital, depicted in the popular K-drama "Descendants of the Sun." The characters, events, and services showcased on this website are from the drama.
 
@@ -13,7 +13,7 @@ This project is based on the fictional hospital, Haesung Hospital, depicted in t
 
 I created this website as a homage to the drama and its characters, out of fondness for the narrative and the portrayal of Haesung Hospital. It's a small endeavor to bring the fictional hospital to life in a tangible way, as a tribute to the series and its impact on viewers.
 
-## Table of Contents
+# Table of Contents
 
 - [Description](#description)
 - [Features](#features)
@@ -23,7 +23,7 @@ I created this website as a homage to the drama and its characters, out of fondn
 - [Contributing](#contributing)
 - [License](#license)
 
-## Description
+# Description
 
 This website is designed to showcase the various services offered by Haesung Hospital, including:
 - Information about the hospital
@@ -33,7 +33,7 @@ This website is designed to showcase the various services offered by Haesung Hos
 - A gallery of images
 - A shop section for medicines available at the hospital
 
-## Features
+# Features
 
 - Informative landing page
 - Sections for different services and information
@@ -42,7 +42,7 @@ This website is designed to showcase the various services offered by Haesung Hos
 - News section highlighting recent hospital achievements
 - Contact information and social media links
 
-## Technologies Used
+# Technologies Used
 
 - HTML5
 - CSS3
@@ -51,7 +51,7 @@ This website is designed to showcase the various services offered by Haesung Hos
 - jQuery
 - Google Maps API
 
-## Screenshots
+# Screenshots
 
 ## HOME PAGE
 ![Haesung Hospital -- Homepage](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/0d0acb0f-402f-4290-89ac-3f495fe7d9b3)
@@ -70,7 +70,7 @@ This website is designed to showcase the various services offered by Haesung Hos
 
 
 
-## Usage
+# Usage
 
 Clone the repository:
 
@@ -78,11 +78,11 @@ Clone the repository:
 git clone https://dsaha007.github.io/Haesung-Hospital-Website/
 ```
 
-## Contributing
+# Contributing
 
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss the changes.
 
-## License
+# License
 
 This project is licensed under the MIT License.
 
