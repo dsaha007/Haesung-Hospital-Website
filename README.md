@@ -74,12 +74,12 @@ This website is designed to showcase the various services offered by Haesung Hos
 </div>
 
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/c736dcee-68b0-442e-a7f9-a0c930304570" alt="Newsletter Page" width="100%" height="300">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/c736dcee-68b0-442e-a7f9-a0c930304570" alt="Newsletter Page" width="100%" height="50%">
   <p>NEWS-LETTER PAGE</p>
 </div>
 
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/b0d4e193-f0be-4c77-a509-d8f6e729350b" alt="Gallery Page" widt50%100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/b0d4e193-f0be-4c77-a509-d8f6e729350b" alt="Gallery Page" widtth="100%" height="50%">
   <p>GALLERY PAGE</p>
 </div>
 
