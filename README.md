@@ -1,4 +1,4 @@
-![Header](./github-header-image.png)
+![github-header-image](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/1cf87eea-99ae-4b9f-93aa-886f6a87bf5c)
 
 # Link : https://dsaha007.github.io/Haesung-Hospital-Website/
 
