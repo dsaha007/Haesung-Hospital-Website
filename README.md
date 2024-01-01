@@ -58,7 +58,7 @@ This website is designed to showcase the various services offered by Haesung Hos
 # Language Breakdown
 
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dsaha007&layout=compact" alt="Language Breakdown">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dsaha007&layout=compact" alt="Language Breakdown" width="50%" height=50%>
 </div>
 
 
