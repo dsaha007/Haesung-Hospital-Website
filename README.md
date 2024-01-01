@@ -70,19 +70,31 @@ This website is designed to showcase the various services offered by Haesung Hos
 
 
 
-# Usage
+# Getting Started
 
-Clone the repository:
+To clone the repository:
 
 ```bash
-git clone https://dsaha007.github.io/Haesung-Hospital-Website/
+git clone https://github.com/your-username/Haesung-Hospital-Website.git
 ```
+
+# Usage
+
+Open the index.html file in your preferred browser to explore the website.
 
 # Contributing
 
-Contributions are welcome! Fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss the changes.
+Contributions are welcome! If you'd like to contribute:
+
+    Fork the repository.
+    Create a new branch (git checkout -b feature/your-feature).
+    Make your changes.
+    Commit your changes (git commit -am 'Add your feature').
+    Push to the branch (git push origin feature/your-feature).
+    Create a pull request.
+
+Please open an issue first to discuss significant changes.
 
 # License
 
 This project is licensed under the MIT License.
-
