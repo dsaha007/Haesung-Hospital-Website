@@ -51,6 +51,10 @@ This website is designed to showcase the various services offered by Haesung Hos
 - jQuery
 - Google Maps API
 
+# Language Breakdown
+
+![Language Breakdown](https://github-readme-stats.vercel.app/api/top-langs/?username=dsaha007&layout=compact)
+
 # Screenshots
 
 ## HOME PAGE
