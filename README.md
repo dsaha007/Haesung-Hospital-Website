@@ -51,3 +51,13 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
+```
+
+## Contributing
+
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss the changes.
+
+## License
+
+This project is licensed under the MIT License.
+
