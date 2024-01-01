@@ -1,5 +1,3 @@
-![Haesung Hospital -- Gallery](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/90274260-8582-4ce5-9965-3aa108df635a)![Haesung Hospital -- News-Letter](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/1aa76bb1-7a57-4896-9f84-4be43123a86f)![Haesung Hospital -- Shop](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/086a8f2f-0ebb-4201-bf04-3f7e8f7bf027)![Haesung Hospital -- Contact Us](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/053cd082-45e0-4e2d-a140-daade73b2adc)# Haesung-Hospital-Website
-
 # Link : https://dsaha007.github.io/Haesung-Hospital-Website/
 
 "Haesung Hospital Website: An interactive platform showcasing hospital services, doctor appointments, news, and an online medicine shop. Built using HTML, CSS, Bootstrap, and JavaScript."
@@ -53,9 +51,6 @@ This website is designed to showcase the various services offered by Haesung Hos
 - Google Maps API
 
 ## Screenshots
-
-![Uploading Haesung Hospital -- Homepage.png…]()
-
 
 ## Usage
 
