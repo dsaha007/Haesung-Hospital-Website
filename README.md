@@ -1,4 +1,4 @@
-![Haesung Hospital -- Contact Us](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/3418bf86-0af1-4bf8-a3b3-4d10f801f5e9)![github-header-image](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/5eea9246-fa16-485e-adf9-b84751e85334)
+![github-header-image](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/5eea9246-fa16-485e-adf9-b84751e85334)
 
 # Link : https://dsaha007.github.io/Haesung-Hospital-Website/
 
@@ -94,15 +94,13 @@ This website is designed to showcase the various services offered by Haesung Hos
 </div>
 
 ### CONTACT US PAGE
-
 <div align="center">
-  <img src="" alt="Contact Us Page" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/7506b9a1-21d1-4ffd-b10c-19b3aea2edf4" alt="Contact Us Page" width="100%" height="50%">
 </div>
 
 ### ABOUT US PAGE
-
 <div align="center">
-  <img src="" alt="Shop Page" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/e5b55a6a-eb75-4bfc-b373-f28fbf777c84" alt="Shop Page" width="100%" height="50%">
 </div>
 
 ### SHOP PAGE
