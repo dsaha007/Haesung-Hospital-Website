@@ -24,6 +24,7 @@ I created this website as a homage to the drama and its characters, out of fondn
 - [Description](#description)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Language Breakdown](#language-breakdown)
 - [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -67,37 +68,37 @@ This website is designed to showcase the various services offered by Haesung Hos
 
 # Screenshots
 
-## HOME PAGE
+### HOME PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/5922e933-3485-4ec8-83f4-ccd98fbbeeb8" alt="Homepage" width="100%" height="50%">
 </div>
 
-## DOCTORS PAGE
+### DOCTORS PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/5f87e6f6-f49a-4a9b-8d10-d7ef8a113cc5" alt="Doctors Page" width="100%" height="50%">
 </div>
 
-## APPOINTMENTS PAGE
+### APPOINTMENTS PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/3922f893-79c9-45ee-a119-a40b4acf56c1" alt="Appointments Page" width="100%" height="50%">
 </div>
 
-## NEWS-LETTER PAGE
+### NEWS-LETTER PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/77653222-ac05-473b-8738-8e05d1e054d2" alt="Newsletter Page" width="100%" height="50%">
 </div>
 
-## GALLERY PAGE
+### GALLERY PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/dff91b42-885b-4c77-bfb0-98fc114d7f70" alt="Gallery Page" widtth="100%" height="50%">
 </div>
 
-## CONTACT US PAGE
+### CONTACT US PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/ce320ceb-f919-4214-a709-95748e08b5b6" alt="Contact Us Page" width="100%" height="50%">
 </div>
 
-## SHOP PAGE
+### SHOP PAGE
 <div align="center">
   <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/136816e7-e4a4-47af-bd9a-cb947e167711" alt="Shop Page" width="100%" height="50%">
 </div>
