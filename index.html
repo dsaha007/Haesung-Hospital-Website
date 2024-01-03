@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haesung Hospital || Homepage</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles/style-scroll.css">
+    <script src="js/scroll-to-top.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.collapse').on('shown.bs.collapse', function(){
+                $(this).parent().find('.fas.fa-plus').removeClass('fa-plus').addClass('fa-minus');
+            }).on('hidden.bs.collapse', function(){
+                $(this).parent().find('.fas.fa-minus').removeClass('fa-minus').addClass('fa-plus');
+            });
+        });
+    </script>
+</head>
+<body>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Scroll to Top ^^</button>
+    <header class="sticky-navbar">
+        <div class="container-fluid bg-light">
+            <div class="container bg-transparent" style="color: blue;">
+                <div class="row">
+                    <div class="col-md-6 col-12 text-center text-md-left">
+                        <h6><a href="#">Terms</a> | <a href="#">Privacy Policy</a> | <a href="#">Legal Agreement</a></h6>
+                    </div>
+                    <div class="col-md-6 col-12 text-center text-md-right">
+                        <a href="#"><img src="images/Icon/4375153_logo_whatsapp_icon.png" width="15" height="15"> 1800567895</a> | 
+                        <a href="#"><img src="images/Icon/4202011_email_gmail_mail_logo_social_icon.png" width="15" height="15"> haesunghq@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="container-fluid bg-primary">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/hospital-img/Picsart_23-12-28_14-58-32-447.png" width="200"></a>
+                    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto font-weight-bold">
+                            <li class="nav-item">
+                                <a class="nav-link text-white active" href="#home">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="doctors.html">DOCTORS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="appointments.html">APPOINTMENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="newsletter.html">NEWS-LETTER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="gallery.html">GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact.html">CONTACT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="shop.html">SHOP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('images/Background/bg.jpg')"></div>
+            <div class="carousel-item" style="background-image: url('images/Background/gif1.gif')"></div>
+            <div class="carousel-item" style="background-image: url('images/Background/bg1.jpg')"></div>
+            <div class="carousel-item" style="background-image: url('images/Background/gif2.gif')"></div>
+        </div>
+        <div class="carousel-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center text-dark">
+                        <div class="content-box font-weight-bold">
+                            <h2 class="font-weight-bold">WE STRIVE FOR EXCELLENCE</h2>
+                            <hr style="width: 100px;">
+                            <p>Welcome to Haesung Hospital, where our commitment to exceptional healthcare is unwavering. We believe in providing compassionate care and pioneering medical solutions to improve lives.</p>
+                            <a href="gallery.html" class="btn btn-primary">DISCOVER MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container justify-content-center  mt-5" style="display: flex; flex-wrap: wrap; gap: 12px;">
+        <div class="card" style="width: 20rem; align-items: center;
+        text-align: center;">
+            <img src="images/Icon/8960629_first aid kit_medical box_medical_medicine_hospital_icon.png" class="card-img" style="width: 100px;"  alt="icon">
+            <div class="card-body">
+              <h5 class="card-title"><strong>ADVANCED TECHNOLOGY</strong></h5>
+              <p class="card-text">We harness the power of cutting-edge technology to redefine healthcare. Our commitment to innovation ensures that we deliver precise diagnoses, advanced treatments, and state-of-the-art medical solutions.</p>
+            
+            </div>
+          </div>
+          <div class="card" style="width: 20rem; align-items: center;
+          text-align: center;">
+            <img src="images/Icon/6040299_asian_coronavirus_doctor_male_icon.png" class="card-img mx-auto" style="width: 100px;" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title"><strong>HEALTHCARE SOLUTIONS</strong></h5>
+              <p class="card-text">Our healthcare solutions prioritize your well-being. With a dedicated team of experts and personalized care plans, we ensure the best possible outcomes for every patient, fostering a healthier community.</p>            
+            </div>
+          </div>
+          <div class="card" style="width: 20rem; align-items: center;
+          text-align: center;">
+            <img src="images/Icon/5840144_ambulance_doctor_emergency_health_hospital_icon.png" class="card-img" style="width: 100px;" alt="icon">
+            <div class="card-body">
+              <h5 class="card-title"><strong>24/7 AVAILABILITY</strong></h5>
+              <p class="card-text">We're here for you round-the-clock. Our commitment to accessibility ensures that you receive prompt medical attention whenever you need it, providing peace of mind and reliable care, day or night.</p>
+            
+            </div>
+          </div>
+    </div>
+
+
+
+    <div class="container mt-5 bg-light">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="font-weight-bold">FAQ's</h3>
+                <hr>
+                <div id="accordion" class="mt-4">
+            
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed font-weight-bold text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    "Our Specializations"
+                                </button>
+                                <i class="fas fa-plus float-right" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"></i>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body bg-primary text-white">
+                                Our medical institution boasts an extensive array of specialized fields. From cardiology, neurosurgery, and oncology to pediatrics and psychiatry, we ensure comprehensive care for every patient's unique medical needs. Our teams are composed of experts in their respective domains, working tirelessly to deliver optimal care and treatment strategies.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed font-weight-bold text-dark" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    "Appointment Procedures"
+                                </button>
+                                <i class="fas fa-plus float-right" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"></i>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body bg-primary text-white">
+                                Our appointment procedures are designed with your convenience in mind. From the moment you reach out to schedule an appointment to the post-appointment care, we strive to make the entire process seamless and efficient. Our online booking system simplifies scheduling, and our staff ensures a hassle-free experience during your visit. We value your time and prioritize a smooth journey through every step of your medical care.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed font-weight-bold text-dark" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    "Insurance and Payment"
+                                </button>
+                                <i class="fas fa-plus float-right" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"></i>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body bg-primary text-white">
+                                We understand the significance of accessible healthcare. To ensure financial ease for all our patients, we offer various payment options and accept a wide range of insurance plans. Our team is dedicated to helping you navigate the complexities of insurance coverage, ensuring you have clarity on the expenses involved. We strive to make healthcare affordable and accessible without compromising on quality.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed font-weight-bold text-dark" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    "Medical Research Initiatives"
+                                </button>
+                                <i class="fas fa-plus float-right" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"></i>
+                            </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body bg-primary text-white">
+                                Our commitment to medical excellence extends beyond clinical care. We actively engage in groundbreaking medical research initiatives, collaborating with renowned experts to drive innovation and advance healthcare. Our research focuses on discovering new treatments, improving existing methodologies, and understanding complex medical conditions better. Through our dedicated research teams and state-of-the-art facilities, we aim to contribute significantly to the evolution of medical science, ultimately benefiting our patients and the global community.
+                            </div>
+                        </div>
+                    </div>
+                    
+            
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <h3 class="font-weight-bold">WHY US?</h3>
+                <hr>
+                <div class="card mb-3 card-title font-weight-bold text-dark" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                      <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="images/Icon/4171320_care_day_health_heart_hospital_icon.png" class="card-img rounded-circle mx-auto" style="border:solid 5px; width:100px;" alt="icon">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title font-weight-bold text-dark">Comprehensive Care</h5>
+                          <p class="card-text">At Haesung Hospital, we integrate cutting-edge technology with compassionate care, ensuring holistic treatments and positive patient outcomes.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3 card-title font-weight-bold text-dark" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="images/Icon/6000222_avatar_coronavirus_doctor_job_medical_icon.png"   class="card-img rounded-circle mx-auto" style="border:solid 5px; width:100px;" alt="icon">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title card-title font-weight-bold text-dark">Expert Medical Team</h5>
+                          <p class="card-text">Our healthcare professionals bring unparalleled expertise and dedication to every diagnosis and treatment, guaranteeing top-notch healthcare solutions.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3 card-title font-weight-bold text-dark" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="images/Icon/6141469_coronavirus_covid_covid19_hospital_infected_icon.png" class="card-img rounded-circle mx-auto" style="border:solid 5px; width:100px;" alt="icon">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title card-title font-weight-bold text-dark"> Patient-Centric Approach</h5>
+                          <p class="card-text">With a 24/7 availability and patient-focused services, we prioritize your health and well-being at every step of your healthcare journey.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <div class="container mt-5">
+        <h3 class="font-weight-bold">Todays Tips From Dr.Kang</h3>
+        <hr>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card mb-3" style="width: 100%;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/hospital-img/doc.jpg" alt="doc" class="img-fluid mt-4 mx-auto" style="width: 100%;height: 480px;">
+                            <div class="card-footer">
+                                <div>
+                                    <p><strong>Dr. Kang Mo-yeon</strong></p>
+                                    <p><strong><i>MD - Chief Medical Officer</i></strong></p>
+                                    <small><strong><i>Dept: Surgery</i></strong></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4><strong>How to Live a Healthy Lifestyle?</strong></h4>
+                                <p>Adopting a healthy lifestyle involves a holistic approach encompassing regular exercise, a balanced diet, and ample sleep. It's a commitment to nurturing your physical, mental, and emotional well-being. Here are some essential tips:</p>
+                                <ul class="list-group-flush" style="list-style-type: disc;">
+                                    <li style="margin-bottom: 20px;">Engage in at least 30 minutes of physical activity daily</li>
+                                    <li style="margin-bottom: 20px;">Embrace a diet rich in fruits, vegetables, and whole grains</li>
+                                    <li style="margin-bottom: 20px;">Ensure 7-8 hours of restful sleep each night</li>
+                                    <li style="margin-bottom: 20px;">Avoid processed foods and sugary beverages</li>
+                                    <li style="margin-bottom: 20px;">Strive for a well-balanced and nutritious diet</li>
+                                </ul>
+                                <p>Cultivating these habits can lead to a healthier and more vibrant life, boosting your energy levels and overall well-being. Remember, small lifestyle changes today can result in significant health benefits tomorrow.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3 bg-light" style="width: 100%;">
+                    <div class="bg-primary text-white p-2">
+                        <img src="images/Icon/928424_annual_appointment_calendar_day_month_icon.png" width="40">
+                        <span style="font-size: larger;">Book an Appointment</span>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="appointmentDate" class="form-label">Preferred Appointment Date</label>
+                                <input type="date" class="form-control" id="appointmentDate" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message (Optional)</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Type your message here"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h3 class="font-weight-bold">News Archive</h3>
+        <hr>
+        <div class="card-deck mt-5">
+            <div class="card" style="align-items: center;">
+                <img src="images/hospital-img/img1.webp" class="card-img" alt="img1" style="width: 90%; height: 200px;">
+                <div class="card-body">
+                    <h5 class="card-title font-italic font-weight-bold">Healthcare Heroes Day</h5>
+                    <p class="card-text"><img src="images/Icon/403022_business man_male_user_avatar_profile_icon.png" width="25" height="25" alt="Author Icon"> <small class="text-muted">Report by: John Doe</small> <img src="images/Icon/8665906_tag_label_icon.png" width="25" height="25" alt="Tag Icon"> <small class="text-muted">Emergency , Miracle</small></p>
+                    <p class="card-text">A miraculous recovery by a patient due to the collective expertise and dedication of our exceptional medical team. Witness the astounding journey from despair to hope, showcasing how collaboration and unwavering commitment led to this remarkable outcome.</p>
+                    <a href="newsletter.html#timeline1" class="btn btn-primary" style="display: inline-block; text-align: center;">READ MORE</a>
+                </div>
+            </div>
+            <div class="card" style="align-items: center;">
+                <img src="images/hospital-img/img2.jpg" class="card-img" alt="img2" style="width: 90%; height: 200px;">
+                <div class="card-body">
+                    <h5 class="card-title font-italic font-weight-bold">Haesung Hospital - Overseas Operation (Uruk)</h5>
+                    <p class="card-text"><img src="images/Icon/403023_avatar_user_woman_female_person_icon.png" width="25" height="25" alt="Author Icon"> <small class="text-muted">Report by: Jane Smith</small> <img src="images/Icon/8665906_tag_label_icon.png" width="25" height="25" alt="Tag Icon"> <small class="text-muted">Social Service, Outdoor</small></p>
+                    <p class="card-text">Explore our global initiatives and overseas operations where Haesung Hospital extends its services beyond borders. Experience how our medical professionals contribute to communities in need, delivering advanced medical care and support globally.</p>
+                    <a href="newsletter.html#timeline2" class="btn btn-primary" style="display: inline-block; text-align: center;">READ MORE</a>
+                </div>
+            </div>
+            <div class="card" style="align-items: center;">
+                <img src="images/hospital-img/img3.png" class="card-img" alt="img3" style="width: 90%; height: 200px;">
+                <div class="card-body">
+                    <h5 class="card-title font-italic font-weight-bold">Collaborative Military Operation</h5>
+                    <p class="card-text"><img src="images/Icon/403019_avatar_male_man_person_user_icon.png" width="25" height="25" alt="Author Icon"> <small class="text-muted">Report by: Alex Johnson</small> <img src="images/Icon/8665906_tag_label_icon.png" width="25" height="25" alt="Tag Icon"> <small class="text-muted">Military, Medical</small></p>
+                    <p class="card-text">Discover our collaboration with the military to provide advanced medical care in challenging environments. Learn about the courageous efforts and inspiring stories of healing in partnership with the military personnel.</p>
+                    <a href="newsletter.html#timeline3" class="btn btn-primary" style="display: inline-block; text-align: center;">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h3 class="font-weight-bold">Top Trends - Health Talks</h3>
+        <hr>
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5479084/" target="_blank">1: Mental Health Awareness</a></li>
+                    <li class="list-group-item"><a href="https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/10-nutrition-myths-debunked" target="_blank">2: Debunking Diet Myths</a></li>
+                    <li class="list-group-item"><a href="https://www.vitaminbuddy.co.uk/blog/10-fitness-tips-busy-professionals/" target="_blank">3: Fitness for Busy Professionals</a></li>
+                    <li class="list-group-item"><a href="https://www.wcsu.edu/ihhs/what-is-holistic-health/" target="_blank">4: Holistic Well-being</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="https://www.cdc.gov/violenceprevention/about/copingwith-stresstips.html" target="_blank">5: Managing Stress Effectively</a></li>
+                    <li class="list-group-item"><a href="https://www.health.harvard.edu/blog/10-superfoods-to-boost-a-healthy-diet-2018082914463" target="_blank">6: Superfoods for a Healthy Life</a></li>
+                    <li class="list-group-item"><a href="https://www.henryford.com/blog/2019/06/how-to-incorporate-yoga-into-daily-life" target="_blank">7: Incorporating Yoga in Daily Routine</a></li>
+                    <li class="list-group-item"><a href="https://www.mind.org.uk/information-support/types-of-mental-health-problems/stress/managing-stress-and-building-resilience/" target="_blank">8: Mental Resilience Building</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects" target="_blank">9: Sleep and Its Impact on Health</a></li>
+                    <li class="list-group-item"><a href="https://www.nia.nih.gov/health/healthy-aging/what-do-we-know-about-healthy-aging" target="_blank">10: Healthy Aging Tips</a></li>
+                    <li class="list-group-item"><a href="https://www.mindful.org/take-a-mindful-moment-5-simple-practices-for-daily-life/" target="_blank">11: Mindfulness in Daily Life</a></li>
+                    <li class="list-group-item"><a href="https://www.mayoclinic.org/healthy-lifestyle/childrens-health/in-depth/nutrition-for-kids/art-20049335" target="_blank">12: Nutrition for Children</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <img src="images/Icon/APP.jpg" class="img-fluid" alt="App Image">
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h3 class="font-weight-bold">Our Partners</h3>
+        <hr>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500" data-pause="hover">
+            <ol class="carousel-indicators"> 
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active h-25" style="border: none;">
+                    <img src="images/Logos/Abbott_logo.png" class="d-block mx-auto" style="max-width: 300%; height: auto;" alt="logo1">
+                </div>
+                <div class="carousel-item h-25" style="border: none;">
+                    <img src="images/Logos/Johnson_Johnson-Logo.png" class="d-block mx-auto" style="max-width: 300px; height: auto;" alt="logo2">
+                </div>
+                <div class="carousel-item h-25" style="border: none;">
+                    <img src="images/Logos/Mankind_logo.png" class="d-block mx-auto" style="max-width: 300px; height: auto;" alt="logo3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> 
+    </div>
+
+    
+
+
+
+
+    <footer>
+        <div class="container-fluid bg-light mt-5">
+        <div class="container mt-5 bg-transparent">
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <h4 style="position: relative;">WHO Guidelines on Diseases</h4>
+                    <hr>
+                    <ul class="list-group" style="list-style: none; padding-left: 0; text-align: left;">
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Wellness Icon">
+                            <a href="https://www.who.int/news-room/fact-sheets/detail/dementia" target="_blank">Alzheimer's Disease</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Preventive Care Icon">
+                            <a href="https://www.who.int/health-topics/diabetes" target="_blank">Diabetes</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">COVID-19</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                            <a href="https://www.who.int/health-topics/cancer" target="_blank">Cancer</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                            <a href="https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html" target="_blank">Stroke (Cerebrovascular-accident)</a>
+                        </li>
+                    </ul>
+                </div>
+                
+        
+                <div class="col-md-3 mt-3">
+                    <h4 style="position: relative;">Recent News</h4>
+                    <hr>
+                    <div class="card">
+                        <img src="images/hospital-img/img1.webp" class="card-img" style="width: 100%;" alt="Post Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Doctors Did a Miracle!</h5>
+                            <p class="card-text">Read about the astounding recovery of a patient....</p>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <img src="images/Icon/403019_avatar_male_man_person_user_icon.png" width="20" height="20" alt="Author Icon">
+                                    <small class="text-muted">By John Doe</small>
+                                </div>
+                                <div>
+                                    <img src="images/Icon/928424_annual_appointment_calendar_day_month_icon.png" width="20" height="20" alt="Date Icon">
+                                    <small class="text-muted">December 1, 2023</small>
+                                </div>
+                                <div>
+                                    <img src="images/Icon/103758_comment_icon.png" width="20" height="20" alt="Comment Icon">
+                                    <small class="text-muted">12 Comments</small>
+                                </div>
+                            </div>
+                            <a href="newsletter.html#timeline1" class="btn btn-primary mt-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+        
+                <div class="col-md-3 mt-3">
+                    <h4 style="position: relative;">Location Map</h4>
+                    <hr>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.3533356704133!2d88.43836657529476!3d22.378033479630844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026d0097533aed%3A0xe18407a46f2e97f6!2sGargi%20Memorial%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1704006554882!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="true" loading="fast"></iframe>
+                </div>
+                
+                <div class="col-md-3 mt-3">
+                    <h4 style="position: relative;">Contact Us</h4>
+                    <hr>
+                    <ul class="list-group" style="list-style: none; padding-left: 0;">
+                        <li class="list-group-item">
+                            <img src="images/Icon/5172573_location_map_icon.png" width="20" height="20" alt="Address Icon">
+                            Address: <br>
+                            Baruipur, Mouza Beralia,<br>
+                            Balarampur, Kolkata,<br>
+                            West Bengal 700144
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/352510_local_phone_icon.png" width="20" height="20" alt="Phone Icon">
+                            Phone: +91 (833) 6942 266
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/2959741_internet_blobal_globe_icon.png" width="20" height="20" alt="Website Icon">
+                            Website: <a href="index.html">OWN WEBSITE</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+        </div>
+        
+        
+    </div>
+    <div class="socialmedia" style="display: flex; justify-content: center;gap:10px; padding: 50px;padding-bottom: 1px;">
+            <a href="https://www.facebook.com/debayan.saha.50?mibextid=puAhwszkLizsjj5x" alt="facebook" target="_blank"><img src="images/Icon/5305154_fb_facebook_facebook logo_icon.svg" width="25px"></a>
+
+            <a href="https://instagram.com/_neoferds._?igshid=MzMyNGUyNmU2YQ==" alt="instagram"  target="_blank"><img
+            src="images/Icon/1161953_instagram_icon.png" width="25px"></a>
+
+            <a href="https://twitter.com/neoferds" alt="twitter"  target="_blank"><img
+                    src="images/Icon/11053969_x_logo_twitter_new_brand_icon.png" width="25px"></a>
+
+            <a href="https://github.com/dsaha007" alt="github"  target="_blank"><img
+                    src="images/Icon/211904_social_github_icon.png" width="25px"></a>
+
+            <a href="https://in.linkedin.com/in/debayan-saha-020913251" alt="linkedin"  target="_blank"><img
+                    src="images/Icon/104493_linkedin_icon.png" width="25px"></a>
+        </div>
+        <div class="credit">Created by <span>Debayan Saha</span> &copy; all rights reserved!</div>
+    </footer>
+    
+    
+
+
+    
+   
+    
+    
+    
+    
+    
+</body>
+</html>
