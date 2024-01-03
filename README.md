@@ -1,5 +1,4 @@
-![github-header-image](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/d509ff04-1757-489b-b0b0-80a412eb18f1)
-
+![github-header-image](https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/5eea9246-fa16-485e-adf9-b84751e85334)
 
 # Link : https://dsaha007.github.io/Haesung-Hospital-Website/
 
