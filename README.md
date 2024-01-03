@@ -69,22 +69,22 @@ This website is designed to showcase the various services offered by Haesung Hos
 
 ## HOME PAGE
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/e37c4f59-7e2e-419c-9bf0-f76f088bf399" alt="Homepage" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/5922e933-3485-4ec8-83f4-ccd98fbbeeb8" alt="Homepage" width="100%" height="50%">
 </div>
 
 ## DOCTORS PAGE
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/f1c6a034-e2c1-4ec1-8e88-6740baa4d7c3" alt="Doctors Page" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/5f87e6f6-f49a-4a9b-8d10-d7ef8a113cc5" alt="Doctors Page" width="100%" height="50%">
 </div>
 
 ## APPOINTMENTS PAGE
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/b277e15f-7528-4d05-bb6e-a7d365def106" alt="Appointments Page" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/3922f893-79c9-45ee-a119-a40b4acf56c1" alt="Appointments Page" width="100%" height="50%">
 </div>
 
 ## NEWS-LETTER PAGE
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/c736dcee-68b0-442e-a7f9-a0c930304570" alt="Newsletter Page" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/77653222-ac05-473b-8738-8e05d1e054d2" alt="Newsletter Page" width="100%" height="50%">
 </div>
 
 ## GALLERY PAGE
@@ -94,12 +94,12 @@ This website is designed to showcase the various services offered by Haesung Hos
 
 ## CONTACT US PAGE
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/2139b73e-9b50-46cf-9f7d-87ffe3b515d6" alt="Contact Us Page" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/ce320ceb-f919-4214-a709-95748e08b5b6" alt="Contact Us Page" width="100%" height="50%">
 </div>
 
 ## SHOP PAGE
 <div align="center">
-  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/43a0817c-6960-45b6-a403-e0429d84c4fa" alt="Shop Page" width="100%" height="50%">
+  <img src="https://github.com/dsaha007/Haesung-Hospital-Website/assets/143870743/136816e7-e4a4-47af-bd9a-cb947e167711" alt="Shop Page" width="100%" height="50%">
 </div>
 
 # Getting Started
@@ -129,4 +129,4 @@ Please open an issue first to discuss significant changes.
 
 # License
 
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License - see the **LICENSE** file for details.
