@@ -85,8 +85,8 @@
                
  @media (max-width: 576px) {
         .carousel-item img {
-            max-width: 100%; /* Ensure images fit within the container */
-            height: auto; /* Maintain aspect ratio */
+            max-width: 100%; 
+            height: auto; 
         }
     }
                 
