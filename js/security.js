@@ -31,7 +31,7 @@
             }
         });
 
-        //window.addEventListener('blur', function() {
-       //       window.location.href = 'alert.html';
-       //});
+        window.addEventListener('blur', function() {
+              window.location.href = 'alert.html';
+       });
     
