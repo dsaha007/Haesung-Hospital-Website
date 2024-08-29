@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haesung Hospital || Appointments</title>
+    <link rel="icon" type="image/x-icon" href="images/hospital-img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style-appointments.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles/style-scroll.css">
+    <script src="js/scroll-to-top.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/security.js"></script>
+</head>
+<body>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Scroll to Top ^^</button>
+
+    <header class="sticky-navbar">
+        <div class="container-fluid bg-light">
+            <div class="container bg-transparent topbar" style="color: blue;">
+                <div class="row">
+                    <div class="col-md-6 col-12 text-center text-md-left">
+                        <h6><a href="#">Terms</a> | <a href="#">Privacy Policy</a> | <a href="#">Legal Agreement</a></h6>
+                    </div>
+                    <div class="col-md-6 col-12 text-center text-md-right">
+                       <h6><a href="tel:1111111111"><img src="images/Icon/4375153_logo_whatsapp_icon.png" width="15" height="15"> 1111111111</a> <span>|</span>
+                        <a href="mailto:haesunghq@gmail.com"><img src="images/Icon/4202011_email_gmail_mail_logo_social_icon.png" width="15" height="15"> haesunghq@gmail.com</a></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="container-fluid bg-primary">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand mr-auto" href="index.html"><img src="images/hospital-img/Picsart_23-12-28_14-58-32-447.png" width="200"></a>
+                    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto font-weight-bold">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="doctors.html">DOCTORS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white active" href="#appoinments">APPOINTMENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="newsletter.html">NEWS-LETTER</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="gallery.html">GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contact.html">CONTACT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="about.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="shop.html">SHOP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </div>
+    </header>
+    <div class="container-fluid bg-light border-top-7">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark font-weight-bold" href="index.html">Home >></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white active bg-primary font-weight-bold" href="#appointments">Appointments</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Enter Doctor Name" aria-label="Search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0 " type="submit">GO</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container mt-4 ">
+        <div class="row justify-content-center">
+            <div id="apoint" class="col-md-8">
+                <h2 class="mb-4 font-weight-bold">Schedule an Appointment</h2>
+                <hr>
+                <form action="https://formspree.io/f/moqgveee" method="POST">
+                    <div class="form-group m-4">
+                        <label for="department">Select a Department</label>
+                        <select class="form-control" id="department" name="department">
+                            <option>Cardiology</option>
+                            <option>Neurology</option>
+                            <option>Pediatrics</option>
+                            <option>Ophthalmology</option>
+                        </select>
+                    </div>
+                    <div class="form-row m-4">
+                        <div class="form-group col-md-6">
+                            <label for="firstName">Your First Name(required)</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastName">Your Last Name(required)</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-row m-4">
+                        <div class="form-group col-md-6">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" class="form-control" id="dob" name="dob" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>Sex</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="sex" id="male" value="male" required>
+                                <label class="form-check-label" for="male">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="sex" id="female" value="female">
+                                <label class="form-check-label" for="female">Female</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="sex" id="child" value="child">
+                                <label class="form-check-label" for="child">Child</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row m-4">
+                        <div class="form-group col-md-6">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="phone">Phone Number(required)</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="form-group m-4">
+                        <label for="message">Your Message (required)</label>
+                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter any additional details" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary ml-4">Submit</button>
+                </form>
+                
+            </div>
+            <div class="col-md-4">
+                <h2 class="mb-4 font-weight-bold">Book an Appointment</h2>
+                <hr>
+                <p>Contact us to schedule an appointment with our experienced team of medical professionals. Your health is our priority.</p>
+                <ul class="list-group" style="list-style: none; padding-left: 0;">
+                    <li class="list-group-item">
+                        <img src="images/Icon/352510_local_phone_icon.png" width="20" height="20" alt="Phone Icon">
+                        Phone: +82 (158) 81511
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/Icon/2959741_internet_blobal_globe_icon.png" width="20" height="20" alt="Website Icon">
+                        Email: <a href="mailto:yourname@somemail.com">yourname@somemail.com</a>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/Icon/2849820_pen_pencil_write_draw_design_icon.png" width="20" height="20" alt="Website Icon">
+                        Online Form: <a href="link_to_form">Fill out this form</a>
+                    </li>
+                </ul>
+                <h3 class="mt-4 mb-4 font-weight-bold">After Booking</h3>
+                <p>Once you've filled in the details and submitted the form, we'll reach out to confirm your appointment via phone or email.</p>
+                <p>Remember to bring the following items for your appointment with the doctor.</p>
+                <ul class="list-unstyled font-weight-bold">
+                    <li><img src="images/Icon/greater-than-solid.svg" width="10" height="10">Previous Medical History</li>
+                    <li><img src="images/Icon/greater-than-solid.svg" width="10" height="10">Enlisted Previous Numbers</li>
+                    <li><img src="images/Icon/greater-than-solid.svg" width="10" height="10">Discussion with Parents</li>
+                    <li><img src="images/Icon/greater-than-solid.svg" width="10" height="10">Make sure you are feeling good</li>
+                    <li><img src="images/Icon/greater-than-solid.svg" width="10" height="10">Have someone with you</li>
+                </ul>
+                <h2 class="mt-4 mb-4 font-italic">Wishing You a Healthy Life!</h2>
+                <img src="images/Icon/checkup.jpg" width="300px" height="200px" alt="Health Checkup Image">
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="container-fluid bg-light mt-5">
+        <div class="container mt-5 bg-transparent">
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <h4 style="position: relative;">WHO Guidelines on Diseases</h4>
+                    <hr>
+                    <ul class="list-group" style="list-style: none; padding-left: 0; text-align: left;">
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Wellness Icon">
+                            <a href="https://www.who.int/news-room/fact-sheets/detail/dementia" target="_self">Alzheimer's Disease</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Preventive Care Icon">
+                            <a href="https://www.who.int/health-topics/diabetes" target="_self">Diabetes</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_self">COVID-19</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                            <a href="https://www.who.int/health-topics/cancer" target="_self">Cancer</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                            <a href="https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html" target="_self">Stroke (Cerebrovascular-accident)</a>
+                        </li>
+                    </ul>
+                </div>
+                
+        
+                <div class="col-md-3 mt-3">
+                    <h4 style="position: relative;">Recent News</h4>
+                    <hr>
+                    <div class="card">
+                        <img src="images/hospital-img/img1.webp" class="card-img" style="width: 100%;" alt="Post Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Doctors Did a Miracle!</h5>
+                            <p class="card-text">Read about the astounding recovery of a patient....</p>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <img src="images/Icon/403019_avatar_male_man_person_user_icon.png" width="20" height="20" alt="Author Icon">
+                                    <small class="text-muted">By John Doe</small>
+                                </div>
+                                <div>
+                                    <img src="images/Icon/928424_annual_appointment_calendar_day_month_icon.png" width="20" height="20" alt="Date Icon">
+                                    <small class="text-muted">December 1, 2023</small>
+                                </div>
+                                <div>
+                                    <img src="images/Icon/103758_comment_icon.png" width="20" height="20" alt="Comment Icon">
+                                    <small class="text-muted">12 Comments</small>
+                                </div>
+                            </div>
+                            <a href="newsletter.html#timeline1" class="btn btn-primary mt-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                
+        
+                <div class="col-md-3 mt-3">
+                    <h4 style="position: relative;">Location Map</h4>
+                    <hr>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404813.17510712304!2d126.64449275891899!3d37.56441782938505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2012d5c39cf%3A0x7e11eca1405bf29b!2sSeoul%2C%20South%20Korea!5e0!3m2!1sen!2sin!4v1704647544554!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="true" loading="fast"></iframe>
+                </div>
+                
+                <div class="col-md-3 mt-3">
+                    <h4 style="position: relative;">Contact Us</h4>
+                    <hr>
+                    <ul class="list-group" style="list-style: none; padding-left: 0;">
+                        <li class="list-group-item">
+                            <img src="images/Icon/5172573_location_map_icon.png" width="20" height="20" alt="Address Icon">
+                            Address: <br>
+                            Gangnam District<br>
+                            Seoul South Korea<br>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/352510_local_phone_icon.png" width="20" height="20" alt="Phone Icon">
+                            Phone: <a href="tel:2222222222">+91 (111) 1111111</a>
+                        </li>
+                        <li class="list-group-item">
+                            <img src="images/Icon/2959741_internet_blobal_globe_icon.png" width="20" height="20" alt="Website Icon">
+                            Website: <a href="index.html">OWN WEBSITE</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+        </div>
+        
+        
+    </div>
+    <div class="socialmedia" style="display: flex; justify-content: center;gap:10px; padding: 50px;padding-bottom: 1px;">
+        <a href="https://www.facebook.com/debayan.saha.50?mibextid=puAhwszkLizsjj5x" alt="facebook" target="_self"><img src="images/Icon/5305154_fb_facebook_facebook logo_icon.svg" width="25px"></a>
+
+        <a href="https://instagram.com/_neoferds._?igshid=MzMyNGUyNmU2YQ==" alt="instagram"  target="_self"><img
+        src="images/Icon/1161953_instagram_icon.png" width="25px"></a>
+
+        <a href="https://twitter.com/neoferds" alt="twitter"  target="_self"><img
+                src="images/Icon/11053969_x_logo_twitter_new_brand_icon.png" width="25px"></a>
+
+        <a href="https://github.com/dsaha007" alt="github"  target="_self"><img
+                src="images/Icon/211904_social_github_icon.png" width="25px"></a>
+
+        <a href="https://in.linkedin.com/in/debayan-saha-020913251" alt="linkedin"  target="_self"><img
+                src="images/Icon/104493_linkedin_icon.png" width="25px"></a>
+    </div>
+    <div class="credit">Created by <span>Debayan Saha</span> &copy; all rights reserved!</div>
+</footer>
+    
+</body>
+</html>

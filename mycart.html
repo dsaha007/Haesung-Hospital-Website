@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haesung Hospital || My Cart</title>
+  <link rel="icon" type="image/x-icon" href="images/hospital-img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/font.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style-shop.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles/style-scroll.css">
+  <script src="js/scroll-to-top.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.9/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/security.js"></script>
+</head>
+<body>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Scroll to Top ^^</button>
+
+  <header class="sticky-navbar">
+    <div class="container-fluid bg-light">
+        <div class="container bg-transparent topbar" style="color: blue;">
+            <div class="row">
+                <div class="col-md-6 col-12 text-center text-md-left">
+                    <h6><a href="#">Terms</a> | <a href="#">Privacy Policy</a> | <a href="#">Legal Agreement</a></h6>
+                </div>
+                <div class="col-md-6 col-12 text-center text-md-right">
+                   <h6><a href="tel:1111111111"><img src="images/Icon/4375153_logo_whatsapp_icon.png" width="15" height="15"> 1111111111</a> <span>|</span>
+                    <a href="mailto:haesunghq@gmail.com"><img src="images/Icon/4202011_email_gmail_mail_logo_social_icon.png" width="15" height="15"> haesunghq@gmail.com</a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<div class="container-fluid bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand mr-auto" href="index.html"><img src="images/hospital-img/Picsart_23-12-28_14-58-32-447.png" width="200"></a>
+                <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto font-weight-bold">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="doctors.html">DOCTORS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="appointments.html">APPOINTMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="newsletter.html">NEWS-LETTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="gallery.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="#shop">SHOP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+</header>
+<div class="container-fluid bg-light border-top-7">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <div class="navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold" href="index.html">Home >></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark font-weight-bold" href="shop.html">Shop >></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white active bg-primary font-weight-bold" href="mycart.html">My Cart <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-counter" id="cartCounter">0</span></a>  
+                    </li>
+                </ul>
+                <div class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark font-weight-bold" href="#" id="navbarDropdownLogin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Login
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownLogin" style="min-width: 250px;">
+                                <form id="loginForm" class="px-4 py-3">
+                                    <div class="form-group">
+                                        <label for="exampleDropdownFormEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleDropdownFormPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                        <label class="form-check-label" for="dropdownCheck">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" id="loginBtn">Sign in</button>
+                                </form>
+                                
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Forgot password?</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for Medinces" aria-label="Search products">
+                    
+                   <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container mt-5">
+    <h2 class="font-weight-bold mt-2">My Cart</h2>
+    <hr>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Product Name</th>
+                    <th>Price per Item</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+    <div id="totalPrice" class="text-right mt-4">Total Price: $0.00</div>
+    <div id="checkoutButton" class="text-center mt-4" style="display: none;">
+        <button class="btn btn-primary">Proceed to Checkout</button>
+    </div>
+
+    <div id="pleaseLoginMessage" class="text-center mt-4 font-weight-bold" style="display: none;">
+        <h4>Please log in to view your cart.</h4> 
+    </div>
+    <div id="shippingOverlay" style="display: none;">
+<div id="shippingForm" class="container mt-5">
+    <h2>Shipping Details</h2>
+    <form id="shippingDetailsForm" action="https://formspree.io/f/xvoegkkb" method="POST" autocomplete="off">
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" class="form-control" id="fullName" name="fullName" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" name="city" required>
+        </div>
+        <div class="form-group">
+            <label for="zipCode">Zip Code</label>
+            <input type="text" class="form-control" id="zipCode" name="zipCode" required>
+        </div>
+        <div class="form-group">
+            <label for="country">Country</label>
+            <input type="text" class="form-control" id="country" name="country" required>
+        </div>
+    
+        <button type="submit" class="btn btn-primary" id="submitShippingDetails">Submit</button>
+    </form>
+    
+</div>
+</div>
+
+
+  <footer>
+    <div class="container-fluid bg-light mt-5">
+    <div class="container mt-5 bg-transparent">
+        <div class="row">
+            <div class="col-md-3 mt-3">
+                <h4 style="position: relative;">WHO Guidelines on Diseases</h4>
+                
+                <ul class="list-group" style="list-style: none; padding-left: 0; text-align: left;">
+                    <li class="list-group-item">
+                        <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Wellness Icon">
+                        <a href="https://www.who.int/news-room/fact-sheets/detail/dementia" target="_self">Alzheimer's Disease</a>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Preventive Care Icon">
+                        <a href="https://www.who.int/health-topics/diabetes" target="_self">Diabetes</a>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_self">COVID-19</a>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                        <a href="https://www.who.int/health-topics/cancer" target="_self">Cancer</a>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/Icon/4510629_arrow_direction_down_pointer_icon.png" width="20" height="20" alt="Specialized Treatments Icon">
+                        <a href="https://www.emro.who.int/health-topics/stroke-cerebrovascular-accident/index.html" target="_self">Stroke (Cerebrovascular-accident)</a>
+                    </li>
+                </ul>
+            </div>
+            
+    
+            <div class="col-md-3 mt-3">
+                <h4 style="position: relative;">Recent News</h4>
+                <div class="card">
+                    <img src="images/hospital-img/img1.webp" class="card-img" style="width: 100%;" alt="Post Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Doctors Did a Miracle!</h5>
+                        <p class="card-text">Read about the astounding recovery of a patient....</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <img src="images/Icon/403019_avatar_male_man_person_user_icon.png" width="20" height="20" alt="Author Icon">
+                                <small class="text-muted">By John Doe</small>
+                            </div>
+                            <div>
+                                <img src="images/Icon/928424_annual_appointment_calendar_day_month_icon.png" width="20" height="20" alt="Date Icon">
+                                <small class="text-muted">December 1, 2023</small>
+                            </div>
+                            <div>
+                                <img src="images/Icon/103758_comment_icon.png" width="20" height="20" alt="Comment Icon">
+                                <small class="text-muted">12 Comments</small>
+                            </div>
+                        </div>
+                        <a href="newsletter.html#timeline1" class="btn btn-primary mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+    
+            <div class="col-md-3 mt-3">
+                <h4 style="position: relative;">Location Map</h4>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d404813.17510712304!2d126.64449275891899!3d37.56441782938505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2012d5c39cf%3A0x7e11eca1405bf29b!2sSeoul%2C%20South%20Korea!5e0!3m2!1sen!2sin!4v1704647544554!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="true" loading="fast"></iframe>
+            </div>
+            
+            <div class="col-md-3 mt-3">
+                <h4 style="position: relative;">Contact Us</h4>
+                
+                <ul class="list-group" style="list-style: none; padding-left: 0;">
+                    <li class="list-group-item">
+                        <img src="images/Icon/5172573_location_map_icon.png" width="20" height="20" alt="Address Icon">
+                        Address: <br>
+                        Gangnam District<br>
+                        Seoul South Korea<br>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/Icon/352510_local_phone_icon.png" width="20" height="20" alt="Phone Icon">
+                            Phone: <a href="tel:2222222222">+91 (111) 1111111</a>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/Icon/2959741_internet_blobal_globe_icon.png" width="20" height="20" alt="Website Icon">
+                        Website: <a href="index.html">OWN WEBSITE</a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+    </div>
+    
+    
+</div>
+<div class="socialmedia" style="display: flex; justify-content: center;gap:10px; padding: 50px;padding-bottom: 1px;">
+    <a href="https://www.facebook.com/debayan.saha.50?mibextid=puAhwszkLizsjj5x" alt="facebook" target="_self"><img src="images/Icon/5305154_fb_facebook_facebook logo_icon.svg" width="25px"></a>
+
+    <a href="https://instagram.com/_neoferds._?igshid=MzMyNGUyNmU2YQ==" alt="instagram"  target="_self"><img
+    src="images/Icon/1161953_instagram_icon.png" width="25px"></a>
+
+    <a href="https://twitter.com/neoferds" alt="twitter"  target="_self"><img
+            src="images/Icon/11053969_x_logo_twitter_new_brand_icon.png" width="25px"></a>
+
+    <a href="https://github.com/dsaha007" alt="github"  target="_self"><img
+            src="images/Icon/211904_social_github_icon.png" width="25px"></a>
+
+    <a href="https://in.linkedin.com/in/debayan-saha-020913251" alt="linkedin"  target="_self"><img
+            src="images/Icon/104493_linkedin_icon.png" width="25px"></a>
+</div>
+<div class="credit">Created by <span>Debayan Saha</span> &copy; all rights reserved!</div>
+</footer>
+<script>
+let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+let cartItemsContainer = document.getElementById('cartItems');
+let totalPriceElement = document.getElementById('totalPrice');
+
+function updateCart() {
+    cartItemsContainer.innerHTML = '';
+    let totalPrice = 0;
+
+    cartItems.forEach(item => {
+        let row = document.createElement('tr');
+
+        let itemImage = document.createElement('td');
+        let image = document.createElement('img');
+        image.src = `images/medicine/${item.image}.jpg`;
+        image.alt = item.name;
+        image.style.maxWidth = '200px';
+        image.style.maxHeight = '200px';
+        itemImage.appendChild(image);
+
+        let itemName = document.createElement('td');
+        itemName.textContent = item.name;
+
+        let itemPrice = document.createElement('td');
+        itemPrice.textContent = `₹${item.price.toFixed(2)}`;
+
+        let itemQuantity = document.createElement('td');
+        let quantityInput = document.createElement('input');
+        quantityInput.type = 'number';
+        quantityInput.value = item.quantity;
+        quantityInput.min = '0';
+        quantityInput.addEventListener('change', (event) => {
+            item.quantity = parseInt(event.target.value);
+            if (item.quantity === 0) {
+                cartItems = cartItems.filter(cartItem => cartItem.quantity > 0);
+            }
+            localStorage.setItem('cart', JSON.stringify(cartItems));
+            updateCart();
+        });
+        itemQuantity.appendChild(quantityInput);
+
+        let totalItemPrice = document.createElement('td');
+        let totalPriceForItem = item.price * item.quantity;
+        totalItemPrice.textContent = `₹${totalPriceForItem.toFixed(2)}`;
+
+        let removeButtonCell = document.createElement('td');
+        let removeButton = document.createElement('button');
+        removeButton.textContent = 'Remove';
+        removeButton.classList.add('btn', 'btn-danger');
+        removeButton.addEventListener('click', () => {
+            cartItems = cartItems.filter(cartItem => cartItem !== item);
+            localStorage.setItem('cart', JSON.stringify(cartItems));
+            updateCart();
+        });
+        removeButtonCell.appendChild(removeButton);
+
+        row.appendChild(itemImage);
+        row.appendChild(itemName);
+        row.appendChild(itemPrice);
+        row.appendChild(itemQuantity);
+        row.appendChild(totalItemPrice);
+        row.appendChild(removeButtonCell);
+        cartItemsContainer.appendChild(row);
+
+        totalPrice += totalPriceForItem;
+    });
+
+    totalPriceElement.textContent = `Total Price: ₹${totalPrice.toFixed(2)}`;
+
+    updateCartCounter();
+}
+
+updateCart();
+
+function handleLogin() {
+    const email = document.getElementById('exampleDropdownFormEmail1').value;
+    const password = document.getElementById('exampleDropdownFormPassword1').value;
+
+    if (email && password) {
+        localStorage.setItem('loggedIn', 'true');
+        localStorage.setItem('userEmail', email);
+
+        const savedCart = localStorage.getItem(`cart_${email}`);
+        if (savedCart) {
+            cartItems = JSON.parse(savedCart);
+            updateCart();
+        }
+    } else {
+        alert('Invalid credentials. Please try again.');
+    }
+    updateNavbar();
+}
+
+function handleLogout() {
+    localStorage.removeItem('loggedIn');
+    localStorage.removeItem('userEmail');
+
+    const userEmail = localStorage.getItem('userEmail');
+    localStorage.setItem(`cart_${userEmail}`, JSON.stringify(cartItems));
+
+    localStorage.removeItem('cart');
+    localStorage.removeItem('cartCounter');
+    updateNavbar();
+    updateCartCounter();
+    cartItems = [];
+    updateCart();
+}
+
+function updateCartCounter() {
+    const isLoggedIn = localStorage.getItem('loggedIn') === 'true';
+    let cartCounter = parseInt(localStorage.getItem('cartCounter')) || 0;
+
+    if (isLoggedIn) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        let totalItems = cart.reduce((total, item) => total + item.quantity, 0);
+        cartCounter = totalItems;
+    } else {
+        cartCounter = 0;
+    }
+
+    document.getElementById('cartCounter').textContent = cartCounter.toString();
+    localStorage.setItem('cartCounter', cartCounter.toString());
+}
+
+
+
+function updateNavbar() {
+const isLoggedIn = localStorage.getItem('loggedIn') === 'true';
+const userEmail = localStorage.getItem('userEmail');
+
+const loginDropdown = document.querySelector('.dropdown-menu');
+const loginDropdownHeading = document.querySelector('#navbarDropdownLogin');
+const cartTable = document.querySelector('.table');
+const totalPriceDiv = document.getElementById('totalPrice');
+const checkoutButton = document.getElementById('checkoutButton');
+const pleaseLoginMessage = document.getElementById('pleaseLoginMessage');
+
+const logoutItem = `<li class="dropdown-item" id="logoutBtn">Logout</li>`;
+
+if (isLoggedIn) { 
+    loginDropdownHeading.textContent =`Welcome User: ${userEmail}`;
+    loginDropdown.innerHTML = `${logoutItem}`;
+    document.getElementById('logoutBtn').addEventListener('click', handleLogout);
+
+    cartTable.style.display = 'table';
+    totalPriceDiv.style.display = 'block';
+    checkoutButton.style.display = 'inline-block';
+    pleaseLoginMessage.style.display = 'none';
+} else {
+    loginDropdownHeading.textContent = 'Login';
+    const loginForm = `<form id="loginForm" class="px-4 py-3">
+        <div class="form-group">
+            <label for="exampleDropdownFormEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleDropdownFormPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+            <label class="form-check-label" for="dropdownCheck">
+                Remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary" id="loginBtn">Sign in</button>
+    </form>`;
+    loginDropdown.innerHTML = loginForm;
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        handleLogin();
+    });
+
+    cartTable.style.display = 'none';
+    totalPriceDiv.style.display = 'none';
+    checkoutButton.style.display = 'none';
+    pleaseLoginMessage.style.display = 'block';
+}
+}
+
+updateNavbar();
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    function showShippingOverlay() {
+        document.getElementById("shippingOverlay").style.display = "block";
+    }
+
+    function hideShippingOverlay() {
+        document.getElementById("shippingOverlay").style.display = "none";
+    }
+
+    document.getElementById("checkoutButton").addEventListener("click", function (event) {
+        event.preventDefault();
+        showShippingOverlay();
+    });
+
+});
+
+
+</script>
+</body>
+</html>
